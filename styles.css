@@ -185,7 +185,7 @@ img {
     align-items: center;
     text-align: center;
 }
-
+/*Table Content*/
 .table {
     width: 100%;
     margin-top: 2rem;
@@ -308,7 +308,7 @@ img {
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
-
+/*Responsive CSS Properties*/
 @media(max-width: 960px) {
     .showcase {
         height: 70vh;
