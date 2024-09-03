@@ -1,14 +1,17 @@
 const tabItems = document.querySelectorAll(".tab-item");
 const tabContentItems = document.querySelectorAll(".tab-content-item");
 
-//Select tab Content item
+//Selecting tab Content item
 function selectItem(e) {
     removeBorder();
     removeshow();
+    
     //Add border to current tab
     this.classList.add("tabs-border");
+    
     //Grab content item form DOM
     const tabContentItem = document.querySelector(`#${this.id}-content`)
+    
     //Add show class
     tabContentItem.classList.add("show");
 }
@@ -20,5 +23,5 @@ function removeshow() {
     tabContentItems.forEach(item => item.classList.remove("show"));
 }
 
-//Listen for tab click 
+//Listener for tab click 
 tabItems.forEach(item => item.addEventListener("click", selectItem));
