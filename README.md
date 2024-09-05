@@ -18,4 +18,4 @@ A pricing table that compares the features of Basic, Standard, and Premium Netfl
 ### 4. Footer:
 Contact information and links to various Netflix resources like FAQ, Investor Relations, and legal notices.
 
-The layout is structured using HTML tags like <header>, <section>, and <table>. The styling and interactions would be handled by external CSS (styles.css) and JavaScript (script.js)
+The layout is structured using HTML tags like header, section, and table. The styling and interactions would be handled by external CSS (styles.css) and JavaScript (script.js)
