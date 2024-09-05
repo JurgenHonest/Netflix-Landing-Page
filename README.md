@@ -38,3 +38,23 @@ A responsive grid with links to various sections.
 Styled for different sizes with hover effects.
 ### 8. Media queries: 
 Adjust layouts and font sizes for smaller screens (max-width 960px).
+
+## Javascript Code
+Helps to manage the functionality of webpage; to wsitch between contents by clicking tabs.
+
+### 1. querySelectors:
+a. tabItems: Selects all elements with the class ".tab-item" (the clickable tabs).
+b. tabContentItems: Selects all elements with the class ".tab-content-item" (the corresponding content sections).
+### 2. selectItem function:
+When a tab is clicked, it:
+a. Calls removeBorder and removeshow to remove active styles from other tabs and content.
+b. Adds a border to the clicked tab (tabs-border class).
+c. Displays the corresponding content by adding the show class to the content element (identified using the clicked tab's ID).
+### 3. Helper Functions:
+a. removeBorder(): Removes the tabs-border class from all tab items.
+b. removeshow(): Removes the show class from all content items, hiding them.
+### 4.Event Listener:
+Adds a click event listener to each tab item that triggers the selectItem function, enabling the tab-switching functionality.
+
+This code ensures that only the active tab is highlighted, and its corresponding content is displayed when clicked.
+
