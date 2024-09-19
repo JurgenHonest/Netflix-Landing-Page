@@ -3,7 +3,7 @@
 ### 1. DOCTYPE Declaration:
 DOCTYPE html specifies the document type as HTML5.
 ### 2. HTML Tag:
-html lang="en" defines the root element of the page with language set to English.
+<html lang="en"> defines the root element of the page with language set to English.
 ### 3. Head Section:
 Includes metadata about the document like character encoding (<meta charset="UTF-8">), viewport settings (<meta name="viewport" content="width=device-width, initial-scale=1.0">), and title (<title>Netflix - Watch TV Shows, Watch Movies Online</title>).
 Links an external stylesheet (<link rel="stylesheet" href="styles.css">).
